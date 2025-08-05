@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+   background-color: #1E1B2E;
+   font-family: 'Quicksand', sans-serif;
+   color: #F1E9FF;
+}
+h1,h2,h3{
+  font-family: 'Playfair Display', serif;
+  color: #CBA6F7;
+}
+
+.App{
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 700px;
+}

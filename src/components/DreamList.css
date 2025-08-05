@@ -1,0 +1,47 @@
+.Dream-List {
+  background-color: transparent; /* o deja fondo místico general */
+  padding: 2rem;
+}
+
+.dream-card {
+  list-style: none;
+  background-color: #f5ecd9; 
+  border: 1px solid #d4af37; 
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: 'Playfair Display', serif;
+  color: #2E2B3F;
+  transition: transform 0.3s ease;
+}
+
+.dream-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.dream-card h3 {
+  color: #2E2B3F;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.dream-card p {
+  color: #2E2B3F;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+.dream-card p strong {
+  border-bottom: 4px solid #efbdeb;
+  padding-bottom: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.dream-card p strong:hover {
+  border-color: #cba6f7;
+}
+    
+.title-list{
+    font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+.dream-entry{
+  background-color: #f5ecd9; 
+  border: 1px solid #d4af37; 
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-family: 'Playfair Display', serif;
+  color: #2E2B3F;
+  transition: transform 0.3s ease;
+  font-size: 1.5rem;
+}
+.dream-entry ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  
+}
+h3{
+    color: #2E2B3F;
+}
+
+
+.dream-entry:hover{
+    transform: scale(1.01);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+.dream-entry p strong {
+  border-bottom: 4px solid #efbdeb;
+  padding-bottom: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.dream-entry p strong:hover {
+  border-color: #cba6f7;
+}
+
+    .entry-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.entry-actions button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.entry-actions button:hover {
+  transform: scale(1.2);
+}
